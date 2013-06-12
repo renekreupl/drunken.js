@@ -1,3 +1,9 @@
+/*
+ * drunken.js Demo Page
+ *
+ * @author Rene Kreupl
+ * @version 1.0
+ */
 $(function() {
 
     $('body').append('<div id="drunken" style="width: 100%; position: absolute; top: 10px; opacity:0.5"></div>');
