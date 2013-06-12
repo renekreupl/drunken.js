@@ -1,0 +1,67 @@
+/*
+ * drunken.js Demo Page
+ *
+ * @author Rene Kreupl
+ * @version 1.0
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 16px;
+	color: #464646;
+	line-height: 150%;
+	background: #f6f6f6;
+}
+
+/* === === ALLGEMEIN === === */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display:block; }
+
+::-moz-selection { background: #000; color: #fff; text-shadow: none; }
+::selection { background: #000; color: #fff; text-shadow: none; }
+
+a { margin: 0 ; padding: 0; }
+a:link, a:visited { text-decoration: underline; color: #00975f; }
+a:hover { text-decoration: none; color: #00975f; }
+a:focus { outline: none; }
+
+ul { margin: 0; padding: 0; line-style: none; }
+li { padding: 0 0 5px 15px; list-style: none; }
+
+h1 { padding: 0 0 20px 0; font-size: 36px; font-weight: normal; color: #000; }
+
+table { font-size: 100%; border-collapse: collapse; }
+p { margin: 0 0 16px 0; }
+img { border: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 16px 0; padding: 0; }
+
+form, fieldset { margin: 0; padding: 0; border: 0; }
+input, textarea { font-size: 100%; outline: none; }
+
+.clearfix:before,
+.clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.float { float: left; }
+.float_right { float: right; }
+
+/* === === GRUNDAUFBAU === */
+#wrapper { width: 600px; margin: 0 auto; padding: 0; text-align: left; background: #fff; }
+#header { padding: 15px 0 0 15px; background: #eeeeee;}
+#content {}
+
+
+/* === Responsive === */
+@media only screen and (max-width: 990px) {
+
+}
+@media only screen and (max-width: 850px) {
+
+}
+@media only screen and (max-width: 710px) {
+
+}
